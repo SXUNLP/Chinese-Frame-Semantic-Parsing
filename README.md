@@ -213,7 +213,7 @@
 # 评测赛程
 
 ## 报名方式： 
-   &emsp;&emsp;本次评测采用电子邮件进行报名，邮件标题为：“CCL2023-汉语框架语义解析评测-参赛单位”，例如：“CCL2023-汉语框架语义解析评测-山西大学”；附件内容为队伍的参赛报名表，报名表点此下载，同时报名表应更名为“参赛队名+参赛队长信息+参赛 单位名称”。请参加评测的队伍发送邮件至202122407024@email.sxu.edu.cn，并同时在阿里天池平台完成报名，完成报名后需加入评测交流群：[CCL2023汉语框架语义解析评测](ttps://qr.dingtalk.com/action/joingroup?code=v1,k1,AYA8FGKyANIwGH6OYXUxoZtcO5CBNNxBdh1es9GRREc=&_dt_no_comment=1&origin=11)
+   &emsp;&emsp;本次评测采用电子邮件进行报名，邮件标题为：“CCL2023-汉语框架语义解析评测-参赛单位”，例如：“CCL2023-汉语框架语义解析评测-山西大学”；附件内容为队伍的参赛报名表，报名表点此下载，同时报名表应更名为“参赛队名+参赛队长信息+参赛 单位名称”。请参加评测的队伍发送邮件至202122407024@email.sxu.edu.cn，并同时在阿里天池平台完成报名，完成报名后需加入评测交流群：[CCL2023汉语框架语义解析评测](https://qr.dingtalk.com/action/joingroup?code=v1,k1,AYA8FGKyANIwGH6OYXUxoZtcO5CBNNxBdh1es9GRREc=&_dt_no_comment=1&origin=11)
 
    报名截止前未发送报名邮件者不参与后续的评选。
 
