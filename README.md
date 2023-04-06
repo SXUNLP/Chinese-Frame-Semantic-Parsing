@@ -212,7 +212,7 @@
    &emsp;&emsp;联系人：闫智超 202022408073@email.sxu.edu.cn、李俊材 202122407024@email.sxu.edu.cn。  
    
 # Baseline  
-&emsp;&emsp;Baseline下载地址：[Github](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
+&emsp;&emsp;Baseline下载地址：[Github](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)   
 &emsp;&emsp;Baseline表现：  
 |task1_acc|task2_fe|task3_f1|task_score|
 |---------|--------|--------|----------|
