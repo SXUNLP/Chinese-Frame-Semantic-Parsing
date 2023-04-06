@@ -211,9 +211,9 @@
    &emsp;&emsp;负责人：谭红叶 tanhongye@sxu.edu.cn。  
    &emsp;&emsp;联系人：闫智超 202022408073@email.sxu.edu.cn、李俊材 202122407024@email.sxu.edu.cn。  
    
-# Baseline
+# Baseline  
 &emsp;&emsp;Baseline下载地址：[Github](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
-&emsp;&emsp;Baseline表现：
+&emsp;&emsp;Baseline表现：  
 |task1_acc|task2_fe|task3_f1|task_score|
 |---------|--------|--------|----------|
 |66.28|88.81|55.13|68.58|
