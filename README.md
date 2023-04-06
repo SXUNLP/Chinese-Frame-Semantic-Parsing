@@ -210,9 +210,18 @@
    &emsp;&emsp;数据集提供方：山西大学智能计算与中文信息处理教育部重点实验室，山西太原 030000。  
    &emsp;&emsp;负责人：谭红叶 tanhongye@sxu.edu.cn。  
    &emsp;&emsp;联系人：闫智超 202022408073@email.sxu.edu.cn、李俊材 202122407024@email.sxu.edu.cn。  
+   
+# Baseline
+&emsp;&emsp;Baseline下载地址：[Github](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
+&emsp;&emsp;Baseline表现：
+|task1_acc|task2_fe|task3_f1|task_score|
+|---------|--------|--------|----------|
+|66.28|88.81|55.13|68.58|
 
 # 如何下载
    &emsp;&emsp;完成报名后，在阿里天池平台下载数据集，数据集的解压密码在报名成功后通过邮件发送。
+
+
 
 # 评测赛程
 
