@@ -66,7 +66,7 @@
    
    $${\rm{task2\_f1}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
    
-   其中：gold 和 pred 分别表示真实结果与预测结果，InterSec(\*)表示计算二者共有的token数量， $\rm Len(\*)$ 表示计算token数量。
+   其中：gold 和 pred 分别表示真实结果与预测结果，InterSec(\*)表示计算二者共有的token数量， Len(\*)表示计算token数量。
 
 ## 论元角色识别（Role identification）
 
@@ -131,66 +131,66 @@
 
 ## 数据说明
    1. 标注数据详细信息如下  
-      + sentence_id：例句id
-      + cfn_spans：框架元素标注信息，训练集中不给出，测试集和验证集中会给出相关内容。
-      + frame：例句所激活的框架名称，训练集中不给出，测试集和验证集中会给出相关内容。
-      + target：目标词的相关信息
-         + start：目标词在句中的起始位置
-         + end：目标词在句中的结束位置
-         + pos：目标词的词性
-      + text：标注例句
-      + word：例句的分词结果及其词性信息
+   + sentence_id：例句id
+   + cfn_spans：框架元素标注信息，训练集中不给出，测试集和验证集中会给出相关内容。
+   + frame：例句所激活的框架名称，训练集中不给出，测试集和验证集中会给出相关内容。
+   + target：目标词的相关信息
+      + start：目标词在句中的起始位置
+      + end：目标词在句中的结束位置
+      + pos：目标词的词性
+   + text：标注例句
+   + word：例句的分词结果及其词性信息
 
-      ```json
-      [{
-         "sentence_id": 2611,
-         "cfn_spans": [
-            { "start": 0, "end": 2, "fe_abbr": "ent_1", "fe_name": "实体1" },
-            { "start": 4, "end": 17, "fe_abbr": "ent_2", "fe_name": "实体2" }
-         ],
-         "frame": "等同",
-         "target": { "start": 3, "end": 3, "pos": "v" },
-         "text": "餐饮业是天津市在海外投资的重点之一。",
-         "word": [
-            { "start": 0, "end": 2, "pos": "n" },
-            { "start": 3, "end": 3, "pos": "v" },
-            { "start": 4, "end": 6, "pos": "nz" },
-            { "start": 7, "end": 7, "pos": "p" },
-            { "start": 8, "end": 9, "pos": "n" },
-            { "start": 10, "end": 11, "pos": "v" },
-            { "start": 12, "end": 12, "pos": "u" },
-            { "start": 13, "end": 14, "pos": "n" },
-            { "start": 15, "end": 16, "pos": "n" },
-            { "start": 17, "end": 17, "pos": "wp" }
-         ]
-      }]
-      ```  
+   ```json
+   [{
+      "sentence_id": 2611,
+      "cfn_spans": [
+         { "start": 0, "end": 2, "fe_abbr": "ent_1", "fe_name": "实体1" },
+         { "start": 4, "end": 17, "fe_abbr": "ent_2", "fe_name": "实体2" }
+      ],
+      "frame": "等同",
+      "target": { "start": 3, "end": 3, "pos": "v" },
+      "text": "餐饮业是天津市在海外投资的重点之一。",
+      "word": [
+         { "start": 0, "end": 2, "pos": "n" },
+         { "start": 3, "end": 3, "pos": "v" },
+         { "start": 4, "end": 6, "pos": "nz" },
+         { "start": 7, "end": 7, "pos": "p" },
+         { "start": 8, "end": 9, "pos": "n" },
+         { "start": 10, "end": 11, "pos": "v" },
+         { "start": 12, "end": 12, "pos": "u" },
+         { "start": 13, "end": 14, "pos": "n" },
+         { "start": 15, "end": 16, "pos": "n" },
+         { "start": 17, "end": 17, "pos": "wp" }
+      ]
+   }]
+   ```  
 
    2. 框架信息在`frame_info.json`中，框架信息示例如下：
-      + frame_name：框架名称
-      + frame_ename：框架英文名称
-      + frame_def：框架定义  
-      + fes：框架元素信息
-         + fe_name：框架元素名称  
-         + fe_abbr：框架元素缩写  
-         + fe_ename：框架元素英文名称  
-         + fe_def：框架元素定义  
+   + frame_name：框架名称
+   + frame_ename：框架英文名称
+   + frame_def：框架定义  
+   + fes：框架元素信息
+      + fe_name：框架元素名称  
+      + fe_abbr：框架元素缩写  
+      + fe_ename：框架元素英文名称  
+      + fe_def：框架元素定义  
 
-      ```json
-      [{
-      "frame_name": "等同",
-      "frame_ename": "Equating",
-      "frame_def": "表示两个实体具有相等、相同、同等看待等的关系。",
-      "fes": [
-         { "fe_name": "实体集", "fe_abbr": "ents", "fe_ename": "Entities", "fe_def": "具有同等关系的两个或多个实体" },
-         { "fe_name": "实体1", "fe_abbr": "ent_1", "fe_ename": "Entity_1", "fe_def": "与实体2具有等同关系的实体" },
-         { "fe_name": "实体2", "fe_abbr": "ent_2", "fe_ename": "Entity_2", "fe_def": "与实体1具有等同关系的实体" },
-         { "fe_name": "施动者", "fe_abbr": "agt", "fe_ename": "Agent", "fe_def": "判断实体集具有同等关系的人。" },
-         { "fe_name": "方式", "fe_abbr": "manr", "fe_ename": "Manner", "fe_def": "修饰用来概括无法归入其他更具体的框架元素的任何语义成分，包括认知的修饰（如很可能，大概，神秘地），辅助描述（安静地，大声地），和与事件相比较的一般描述（同样的方式）。" },
-         { "fe_name": "时间", "fe_abbr": "time", "fe_ename": "Time", "fe_def": "实体之间具有等同关系的时间" }
-      ]
-      }]
-      ```
+   ```json
+   [{
+   "frame_name": "等同",
+   "frame_ename": "Equating",
+   "frame_def": "表示两个实体具有相等、相同、同等看待等的关系。",
+   "fes": [
+      { "fe_name": "实体集", "fe_abbr": "ents", "fe_ename": "Entities", "fe_def": "具有同等关系的两个或多个实体" },
+      { "fe_name": "实体1", "fe_abbr": "ent_1", "fe_ename": "Entity_1", "fe_def": "与实体2具有等同关系的实体" },
+      { "fe_name": "实体2", "fe_abbr": "ent_2", "fe_ename": "Entity_2", "fe_def": "与实体1具有等同关系的实体" },
+      { "fe_name": "施动者", "fe_abbr": "agt", "fe_ename": "Agent", "fe_def": "判断实体集具有同等关系的人。" },
+      { "fe_name": "方式", "fe_abbr": "manr", "fe_ename": "Manner", "fe_def": "修饰用来概括无法归入其他更具体的框架元素的任何语义成分，包括认知的修饰（如很可能，大概，神秘地），辅助描述（安静地，大声地），和与事件相比较的一般描述（同样的方式）。" },
+      { "fe_name": "时间", "fe_abbr": "time", "fe_ename": "Time", "fe_def": "实体之间具有等同关系的时间" }
+   ]
+   }]
+   ```
 # <span id="datainfo">数据集信息</span>
 
    数据集提供方：山西大学智能计算与中文信息处理教育部重点实验室，山西太原 030000。  
