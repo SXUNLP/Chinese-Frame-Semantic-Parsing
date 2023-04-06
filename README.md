@@ -249,13 +249,13 @@
 
 &emsp;&emsp;该数据集遵循协议： [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?spm=5176.12282016.0.0.7a0a1517bGbbHL)。
 
-# **引用**
+# 引用
 
    &emsp;&emsp;由于版权保护问题，CFN数据集只免费提供给用户用于非盈利性科学研究使用，参赛人员不得将数据用于任何商业用途。如果用于商业产品，请联系谭红叶老师，联系邮箱 tanhongye@sxu.edu.cn。
 
-# **Github**
-
-   [https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
+# 评测网址
+   评测网址：[https://tianchi.aliyun.com/CFSP](https://tianchi.aliyun.com/CFSP)  
+   GitHub：[https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
 
 
 # 注意事项
