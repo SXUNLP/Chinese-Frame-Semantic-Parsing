@@ -36,7 +36,7 @@
 
    &emsp;&emsp;框架识别采用正确率作为评价指标：
 
-   $$task1\_acc = 正确识别的个数 / 总数$$
+   $$task1\_{acc} = 正确识别的个数 / 总数$$
 
 
 ## 论元范围识别（Argument Identification）
@@ -64,7 +64,7 @@
    
    $${\rm{recall}} = \frac{{{\rm{InterSec(gold,pred)}}}}{{{\rm{Len(gold)}}}}$$  
    
-   $${\rm{task2\_f1}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
+   $${\rm{task2\_{f1}}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
    
    其中：gold 和 pred 分别表示真实结果与预测结果，InterSec(\*)表示计算二者共有的token数量， Len(\*)表示计算token数量。
 
@@ -95,7 +95,7 @@
    
    $${\rm{recall}} = \frac{{{\rm{Count(gold \cap pred)}}}} {{{\rm{Count(gold)}}}}$$  
    
-   $${\rm{task3\_f1}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
+   $${\rm{task3\_{f1}}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
 
    其中，gold 和 pred 分别表示真实结果与预测结果， Count(\*) 表示计算集合元素的数量。
 
@@ -208,7 +208,7 @@
    联系人：闫智超 202022408073@email.sxu.edu.cn、李俊材 202122407024@email.sxu.edu.cn。  
 
 # 如何下载
-   &emsp;&emsp;完成报名后，在阿里天池平台下载数据集，数据集的解压缩。
+   &emsp;&emsp;完成报名后，在阿里天池平台下载数据集，数据集的解压缩密码在报名成功后在参赛群中给出。
 
 # 评测赛程
 
