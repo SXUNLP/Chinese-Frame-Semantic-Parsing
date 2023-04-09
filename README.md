@@ -263,7 +263,7 @@
    &emsp;&emsp;由于版权保护问题，CFN数据集只免费提供给用户用于非盈利性科学研究使用，参赛人员不得将数据用于任何商业用途。如果用于商业产品，请联系谭红叶老师，联系邮箱 tanhongye@sxu.edu.cn。
 
 # 评测网址
-   评测网址：[https://tianchi.aliyun.com/CFSP](https://tianchi.aliyun.com/CFSP)  
+   评测网址：[https://tianchi.aliyun.com/dataset/149079]( https://tianchi.aliyun.com/dataset/149079)  
    GitHub：[https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
 
 
