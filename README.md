@@ -137,7 +137,7 @@
    
    $${\rm{recall}} = \frac{{{\rm{InterSec(gold,pred)}}}}{{{\rm{Len(gold)}}}}$$
    
-   $${\rm{task2\_f1}} = \frac{{{\rm{2*precision*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$    
+   $${\rm{task2\\_f1}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$    
    
    其中：gold 和 pred 分别表示真实结果与预测结果，InterSec(\*)表示计算二者共有的token数量， Len(\*)表示计算token数量。
 
@@ -172,7 +172,7 @@
    
    $${\rm{recall}} = \frac{{{\rm{Count(gold \cap pred)}}}} {{{\rm{Count(gold)}}}}$$  
    
-   $${\rm{task3\_f1}} = \frac{{{\rm{2*precision*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
+   $${\rm{task3\\_f1}} = \frac{{{\rm{2\*precision\*recall}}}}{{{\rm{precision}} + {\rm{recall}}}}$$  
 
    其中，gold 和 pred 分别表示真实结果与预测结果， Count(\*) 表示计算集合元素的数量。
 
