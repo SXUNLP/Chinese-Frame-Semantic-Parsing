@@ -259,7 +259,7 @@ Baseline表现：
 10.	评测负责人：谭红叶 tanhongye@sxu.edu.cn；联系人：闫智超 202022408073@email.sxu.edu.cn、李俊材 202122407024@email.sxu.edu.cn。
 
 # 报名方式  
-   &emsp;&emsp;本次评测采用电子邮件进行报名，邮件标题为：“CCL2023-汉语框架语义解析评测-参赛单位”，例如：“CCL2023-汉语框架语义解析评测-山西大学”；附件内容为队伍的参赛报名表，报名表[点此下载](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing/blob/main/%E6%B1%89%E8%AF%AD%E6%A1%86%E6%9E%B6%E8%AF%AD%E4%B9%89%E8%A7%A3%E6%9E%90%E8%AF%84%E6%B5%8B%E6%8A%A5%E5%90%8D%E8%A1%A8.docx)，同时报名表应更名为“参赛队名+参赛队长信息+参赛 单位名称”。请参加评测的队伍发送邮件至202122407024@email.sxu.edu.cn，并同时在阿里天池平台完成报名，完成报名后需加入评测交流群：[CCL2023汉语框架语义解析评测](https://qr.dingtalk.com/action/joingroup?code=v1,k1,AYA8FGKyANIwGH6OYXUxoZtcO5CBNNxBdh1es9GRREc=&_dt_no_comment=1&origin=11)
+   &emsp;&emsp;本次评测采用电子邮件进行报名，邮件标题为：“CCL2023-汉语框架语义解析评测-参赛单位”，例如：“CCL2023-汉语框架语义解析评测-山西大学”；附件内容为队伍的参赛报名表，报名表[点此下载](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing/blob/main/%E6%B1%89%E8%AF%AD%E6%A1%86%E6%9E%B6%E8%AF%AD%E4%B9%89%E8%A7%A3%E6%9E%90%E8%AF%84%E6%B5%8B%E6%8A%A5%E5%90%8D%E8%A1%A8.docx)，同时报名表应更名为“参赛队名+参赛队长信息+参赛 单位名称”。请参加评测的队伍发送邮件至202122407024@email.sxu.edu.cn，并同时在阿里天池平台完成报名，完成报名后需加入评测交流群：[22240029459](https://qr.dingtalk.com/action/joingroup?code=v1,k1,AYA8FGKyANIwGH6OYXUxoZtcO5CBNNxBdh1es9GRREc=&_dt_no_comment=1&origin=11)
 
    * 报名截止前未发送报名邮件者不参与后续的评选。
    * 大赛技术交流群： 请加钉钉群 22240029459 。
