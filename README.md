@@ -1,4 +1,18 @@
-   
+# 更新日志
+
+* <font  color="red">评测主页迁移</font>，当前页面为数据集页面，请参赛选手到算法比赛页面参与评测，<font  color="red">赛制规则和赛程安排以算法比赛页面为准，已在数据集页面提交过评测结果的参赛选手需要在算法比赛页面中重新提交</font>，算法比赛主页链接：   
+   [CCL2023-Eval 汉语框架语义解析评测_算法大赛](https://tianchi.aliyun.com/competition/entrance/532083/introduction)
+
+* <font  color="red">报名方式更新</font>：分为以下两个步骤，更多报名细节见算法比赛首页： [CCL2023-Eval 汉语框架语义解析评测](https://tianchi.aliyun.com/competition/entrance/532083/introduction)。
+
+	1.  4月1日阿里天池平台([https://tianchi.aliyun.com/](https://tianchi.aliyun.com/))将开放本次比赛的报名组队、登录比赛官网（[CCL2023-Eval 汉语框架语义解析评测_算法大赛](https://tianchi.aliyun.com/competition/entrance/532083/introduction)），完成个人信息注册，即可报名参赛；选手可以单人参赛，也可以组队参赛。组队参赛的每个团队2-3人，每位选手只能加入一支队伍；选手需确保报名信息准确有效，组委会有权取消不符合条件队伍的参赛资格及奖励；选手报名、组队变更等操作截止时间为5月27日23：59：59；各队伍（包括队长及全体队伍成员）需要在5月27日23：59：59前完成实名认证（认证入口：天池官网-右上角个人中心-认证-支付宝实名认证），未完成认证的参赛团队将无法进行后续的比赛；
+	    
+	2.  向赛题举办方发送电子邮件进行报名，以获取数据解压密码。邮件标题为：“CCL2023-汉语框架语义解析评测-参赛单位”，例如：“CCL2023-汉语框架语义解析评测-复旦大学”；附件内容为队伍的参赛报名表，报名表[点此下载](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing/blob/main/%E6%B1%89%E8%AF%AD%E6%A1%86%E6%9E%B6%E8%AF%AD%E4%B9%89%E8%A7%A3%E6%9E%90%E8%AF%84%E6%B5%8B%E6%8A%A5%E5%90%8D%E8%A1%A8.docx)，同时报名表应更名为“参赛队名+参赛队长信息+参赛单位名称”。请参加评测的队伍发送邮件至  [202122407024@email.sxu.edu.cn](mailto:202122407024@email.sxu.edu.cn)，报名成功后赛题数据解压密码会通过邮件发送给参赛选手，选手在天池平台下载数据即可
+
+	**注意：报名截止前未发送报名邮件者不参与后续的评选。**
+* 报名时间由 4月1日-4月31日 更新为 4月1日-5月27日。 
+ 
+ 
 # 总体概述
   
 * CFN 1.0数据集是由山西大学以汉语真实语料为依据构建的框架语义资源，数据由框架知识及标注例句组成，包含了近700个语义框架及20000条标注例句。CFN 1.0数据集遵循[CC BY-NC 4.0协议](https://creativecommons.org/licenses/by-nc/4.0/)。      
@@ -264,9 +278,10 @@ Baseline表现：
    * 报名截止前未发送报名邮件者不参与后续的评选。
    * 大赛技术交流群： 请加钉钉群 22240029459 。
    
-# 评测网址
-   评测网址：[https://tianchi.aliyun.com/dataset/149079]( https://tianchi.aliyun.com/dataset/149079)  
-   GitHub：[https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)
+# 评测网址   
+   评测首页：[[CCL2023-Eval 汉语框架语义解析评测_算法大赛](https://tianchi.aliyun.com/competition/entrance/532083/introduction)](https://tianchi.aliyun.com/competition/entrance/532083/introduction)    
+   数据集网址：[https://tianchi.aliyun.com/dataset/149079]( https://tianchi.aliyun.com/dataset/149079)    
+   GitHub：[https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing](https://github.com/SXUNLP/Chinese-Frame-Semantic-Parsing)   
 
 # 奖项信息
    本次评测将评选出如下奖项。
